@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+body {
+  background-color:#000000;
+  color: #ffffff
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  max-width: 1170px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.type-treatment {
+  font-family: 'OPTIAkroGrotesk-Cond';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.page-heading {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.rule {
+  display: none;
+  height: 1px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-right: 20px;
+}
+.brooklyn-nets-logo {
+  max-width: 80px;
+}
+
+.nba-logo {
+  width: 36px;
+}
+
+.hero {
+  position: relative;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.intro-text {
+  text-align: left;
+  width: 27%;
+}
+
+.intro-text h3 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.intro-text p {
+  font-size: 21px;
+  margin-top: 0;
+}
+
+.hero-images {
+  position: relative;
+}
+
+.james-harden {
+  max-height: 500px;
+  top: -40px;
+  position: relative;
+}
+
+.kyrie-irving {
+  position: absolute;
+  left: -60px;
+  bottom: -10px;
+}
+
+.kevin-durant {
+  position: absolute;
+  right: -210px;
+  bottom: -43px;
+  height: 440px;
+}
+
+.brooklyn-nets-team-photo {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+table {
+  padding-top: 40px;
+}
+
+.player-row {
+  line-height: 4;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+footer ul a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer ul a:hover {
+  color: gray;
 }
