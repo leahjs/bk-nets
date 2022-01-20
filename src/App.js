@@ -15,17 +15,12 @@ function App() {
       <img src={nbaLogo} alt="NBA Logo" className="nba-logo"></img>
     </header>
 
-    <div className="hero">
-      {/* <img src={hero} alt="Brooklyn Nets Starting Five" className="brooklyn-nets-team-photo"></img> */}
+    <div className="hero" style={{ backgroundImage: `url(${hero})` }}>
       <div className="intro-text"> 
         <h3 className="type-treatment">Meet the Team</h3>
-        <p>Read stats from your favorite basketball players on the Brooklyn Nets</p>
+        <p>Read the stats from your favorite basketball players on the Brooklyn Nets</p>
       </div>
-      <div className="hero-images">
-        <img src={harden} alt="James Harden" className="james-harden player"></img>
-        <img src={kyrie} alt="Kyrie Irving" className="kyrie-irving player"></img>
-        <img src={kevin} alt="Kevin Durant" className="kevin-durant player"></img>
-      </div>
+
     </div>
     <footer>
       <ul>
