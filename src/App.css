@@ -88,10 +88,35 @@ header {
 
 table {
   padding-top: 40px;
+  padding-left: 25px;
+}
+table thead tr th {
+  text-align: left;
 }
 
 .player-row {
-  line-height: 4;
+  line-height: 2;
+}
+.player-row > td:first-child {
+  width: 25%;
+}
+.player-info__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-info * {
+  margin: 0;
+}
+
+.player-info h6 {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.player-photo {
+  max-width: 180px;
 }
 
 footer ul {
@@ -119,5 +144,9 @@ footer ul a:hover {
   .intro-text p {
     font-size: 21px;
     max-width: 100%;
+  }
+  .player-info__container {
+    display: flex;
+    flex-direction: row;
   }
 }

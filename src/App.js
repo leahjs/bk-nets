@@ -1,9 +1,7 @@
 import logo from './brooklyn-nets-logo.svg';
 import nbaLogo from './nba-logo-transparent.png';
 import hero from './Nets-article_FB-scaled.jpeg';
-import harden from './player-photos/james-harden.png';
-import kyrie from './player-photos/kyrie-irving.png';
-import kevin from './player-photos/kevin-durant.png';
+import Roster from './Roster';
 import './App.css';
 
 function App() {
@@ -20,8 +18,8 @@ function App() {
         <h3 className="type-treatment">Meet the Team</h3>
         <p>Read the stats from your favorite basketball players on the Brooklyn Nets</p>
       </div>
-
     </div>
+    <Roster></Roster>
     <footer>
       <ul>
         <li>Brooklyn Nets Team Roster</li>
